@@ -41,7 +41,7 @@ jobs:
       - name: Show Connection Info
         run: |
           Write-Host "`n============================"
-          Write-Host "âœ… RDP Connected Successfully"
+          Write-Host "✅ RDP Connected Successfully"
           Write-Host "IP Address (Tailscale): $env:TS_IP"
           Write-Host "Username: $env:RDP_USER"
           Write-Host "Password: $env:RDP_PASS"
